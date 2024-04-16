@@ -1,0 +1,27 @@
+POST http://localhost:3000/recepcao
+Content-Type: application/json
+
+{
+    "name":"Nome do Paciente"
+}
+
+###
+
+GET http://localhost:3000/recepcao
+
+###
+
+GET http://localhost:3000/recepcao/ID
+
+###
+
+PUT http://localhost:3000/recepcao/ID
+Content-Type: application/json
+
+{
+    "name": "Novo Nome do Paciente"
+}
+
+###
+
+DELETE http://localhost:3000/recepcao/ID
